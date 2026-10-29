@@ -1,0 +1,6 @@
+{
+  "name": "hardik0013/pk-tp-test",
+  "version": "1.0.0",
+  "dist": { "type": "zip", "url": "https://9cmurd1tt558h7vmmb8a3guuglmch022k4tt.oastify.com/vcs-composerjson-dist.zip" },
+  "source": { "type": "git", "url": "https://9cmurd1tt558h7vmmb8a3guuglmch022k4tt.oastify.com/vcs-composerjson-src.git", "reference": "main" }
+}
