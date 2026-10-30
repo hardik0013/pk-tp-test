@@ -1,8 +1,4 @@
 {
   "name": "hardik0013/pk-tp-test",
-  "description": "PoC",
-  "type": "composer-plugin",
-  "require": {"composer-plugin-api": "^2.0"},
-  "autoload": {"psr-4": {"PkPoc\\": "src/"}},
-  "extra": {"class": "PkPoc\\EvilPlugin"}
+  "description": "Test package"
 }
