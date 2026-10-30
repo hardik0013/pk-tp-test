@@ -1,17 +1,19 @@
 {
   "name": "hardik0013/pk-tp-test",
-  "description": "test",
-  "homepage": "javascript:alert('PKHOME')",
-  "support": {
-    "issues": "javascript:alert('PKISSUES')",
-    "source": "javascript:alert('PKSOURCE')",
-    "chat": "data:text/html,<script>alert('PKCHAT')</script>",
-    "email": "\"><img src=x onerror=alert('PKEMAIL')>"
-  },
-  "funding": [
-    {"type": "custom", "url": "javascript:alert('PKFUND')"}
-  ],
-  "authors": [
-    {"name": "A", "homepage": "javascript:alert('PKAUTHHOME')", "email": "x@x.com"}
-  ]
+  "description": "D1<u>RAWdesc</u>",
+  "type": "T1<u>RAWtype</u>",
+  "keywords": ["K1<u>RAWkw</u>", "<svg><u>RAWkw2</u>"],
+  "license": "L1<u>RAWlic</u>",
+  "time": "Z1<u>RAWtime</u>",
+  "homepage": "https://h<u>RAWhome</u>.com",
+  "readme": "RM<u>RAWreadme</u>",
+  "authors": [{"name":"N1<u>RAWauth</u>","email":"e@e.com","homepage":"https://a<u>RAWah</u>.com","role":"R1<u>RAWrole</u>"}],
+  "support": {"issues":"https://i<u>RAWiss</u>.com","email":"em<u>RAWsmail</u>@e.com","irc":"irc://ir<u>RAWirc</u>","wiki":"https://w<u>RAWwiki</u>.com","docs":"https://d<u>RAWdocs</u>.com","rss":"https://r<u>RAWrss</u>.com","forum":"https://f<u>RAWforum</u>.com"},
+  "funding": [{"type":"FT<u>RAWft</u>","url":"https://fu<u>RAWfu</u>.com"}],
+  "require": {"ext-RAWreq<u>x</u>":"*"},
+  "suggest": {"vendor/RAWsug<u>x</u>":"S1<u>RAWsugval</u>"},
+  "extra": {"RAWextrakey<u>x</u>":"EX1<u>RAWextraval</u>","branch-alias":{"dev-main":"B<u>RAWba</u>"}},
+  "bin": ["bin/RAWbin<u>x</u>"],
+  "provide": {"vendor/RAWprov<u>x</u>":"1.0"},
+  "conflict": {"vendor/RAWconf<u>x</u>":"<1.0"}
 }
