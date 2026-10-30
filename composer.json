@@ -1,1 +1,4 @@
-{"name":"hardik0013/pk-tp-test","description":"DESC [mdlink](javascript:alert(1)) <b>DESCRAWHTML</b> **bold** <img src=x onerror=alert(1)>","homepage":"https://example.com/HOMEDISP"}
+{
+  "name": "hardik0013/pk-tp-test",
+  "description": "Test package"
+}
